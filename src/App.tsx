@@ -14,7 +14,7 @@ function App() {
                     <LeftSide />
                 </div>
 
-                <div className="w-3/5 p-8 h-full">
+                <div className="w-3/5 p-8 pt-[10vh] flex flex-col items-center h-full">
                     <RightSide />
                 </div>
             </div>

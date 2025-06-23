@@ -14,7 +14,7 @@ const icons = [
 const Slider: React.FC = () => {
     return (
         <div className="slider mt-[10rem]">
-            <h2 className="text-3xl font-bold text-white text-center mb-8">TECH STACK</h2>
+            <h2 className="text-3xl font-bold text-white text-center" style={{ marginBottom: '1.5rem' }}>TECH STACK</h2>
 
             <Marquee gradient={false} speed={50} pauseOnHover={false}>
                 {icons.map((item, idx) => (

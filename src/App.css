@@ -134,4 +134,7 @@
     width: 90%;
   }
 
+  .flex.justify-center.items-center {
+    margin-right: 8rem !important;
+  }
 }

@@ -55,21 +55,7 @@ export const Header = () => {
                 </span>
             </div>
 
-            <div className="text-sm mr-4 text-right">
-                <span
-                    style={{
-                        fontOpticalSizing: "auto",
-                        scrollBehavior: "smooth",
-                        fontFamily: "Inter, sans-serif",
-                        color: "#8292aa",
-                        fontSize: "1.4rem",
-                        marginTop: "0.5rem",
-                        marginRight: "1.5rem",
-                    }}
-                >
-                    {formattedDate}
-                </span>
-            </div>
+            <span className="formatted-date">{formattedDate}</span>
         </header>
     );
 };

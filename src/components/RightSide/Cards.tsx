@@ -6,7 +6,7 @@ import { AiOutlineProject } from "react-icons/ai";
 
 const Cards: React.FC = () => {
     return (
-        <div className="flex flex-nowrap gap-[3rem] h-[40%] w-[95%] mx-auto">
+        <div id={'cardsCont'} className="flex flex-nowrap gap-[3rem] h-[40%] w-[95%] mx-auto">
             <div className="card-container w-1/4">
                 <div className="card-inner border-3 border-[#8292aa]">
                     <div className="card-front">

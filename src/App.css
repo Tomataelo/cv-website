@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #root {
   width: 100%;
   margin: 0;
@@ -39,4 +43,95 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.formatted-date {
+  display: flex;
+  font-family: Inter, sans-serif;
+  color: #8292aa;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  margin-right: 1.5rem;
+  justify-content: right;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .pt-\[20vh\] {
+    padding-top: 8vh;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  .w-2\/5 {
+    width: 100%;
+  }
+
+  .w-3\/5 {
+    width: 100%;
+  }
+
+  #downloadCv {
+    text-align: left;
+  }
+
+  .flex.gap-x-3.justify-center.lg\:justify-start {
+    justify-content: left;
+  }
+
+  #cardsCont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 400px;
+  }
+
+  .w-1\/4 {
+    width: 100%;
+  }
+
+  .gap-\[3rem\] {
+    gap: 2rem;
+  }
+
+  .w-\[95\%\] {
+    width: 90%;
+  }
+
+  .formatted-date {
+    font-size: 1rem;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .hover\:text-\[\#4E5DF33\] {
+    font-size: 1.2rem;
+  }
+
+  .mt-\[10rem\] {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+  }
+
+  li {
+    margin-top: 15px;
+  }
+
+  .text-white.px-6.py-4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+  }
+
 }

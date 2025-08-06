@@ -113,6 +113,10 @@ button:focus-visible {
   transform: rotateY(180deg);
 }
 
+h1#project {
+  margin-bottom: 55px;
+}
+
 .card-container:hover .card-inner {
   transform: rotateY(180deg);
 }

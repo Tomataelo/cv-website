@@ -17,7 +17,7 @@ export const Header = () => {
         second: "2-digit",
     });
 
-    const formattedDate = time.toLocaleDateString("en-US", {
+    const formattedDate = time.toLocaleDateString("pl-PL", {
         year: "numeric",
         day: "numeric",
         month: "long",

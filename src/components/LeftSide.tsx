@@ -14,11 +14,11 @@ const LeftSide: React.FC = () => {
                 </p>
             </div>
 
-            <div id={'downloadCv'} className="text-center lg:text-left mb-4" style={{marginBottom: '0.4rem'}}>
-                <a href="/cv.pdf" download className="text-white hover:text-gray-300 transition-colors">
-                    Pobierz CV
-                </a>
-            </div>
+            {/*<div id={'downloadCv'} className="text-center lg:text-left mb-4" style={{marginBottom: '0.4rem'}}>*/}
+            {/*    <a href="/cv.pdf" download className="text-white hover:text-gray-300 transition-colors">*/}
+            {/*        Pobierz CV*/}
+            {/*    </a>*/}
+            {/*</div>*/}
 
             <div className="flex gap-x-3 justify-center lg:justify-start">
                 <a href="https://github.com/Tomataelo" target="_blank" rel="noopener noreferrer">
